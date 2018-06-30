@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.nt.domain.Consign12" table="CONSIGN_12">
+		<id name="sid" column="SID" />
+		<!-- <property name="CompType" column="COMPTYPE" /> -->
+		<property name=" details" column="DETAILS" />
+		<property name="code" column="CODE" />
+		<property name="name" column="NAME" />
+
+
+	</class>
+
+</hibernate-mapping>
+	

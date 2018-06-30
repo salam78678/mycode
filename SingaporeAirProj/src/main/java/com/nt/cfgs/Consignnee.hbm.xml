@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+	<hibernate-mapping>
+	<class name="com.nt.domain.Consignnee" table="CONSIGNNEE">
+	   <id name="sno" column="SNO"/> <!-- Singular Identifier Cfg -->
+		<property name="code" column="CODE" />
+		<property name="accNumber"  column="ACC_NUMBER" />
+		<property name=" name" column="NAME" />
+		
+	</class>
+	</hibernate-mapping>
+	

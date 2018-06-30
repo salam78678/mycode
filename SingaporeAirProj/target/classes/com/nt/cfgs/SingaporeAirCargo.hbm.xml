@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.nt.domain.SingaporeAirCargo" table="SINGAPORE_CARGO">
+		<id name="sno" column="SNO" /> <!-- Singular Identifier Cfg -->
+		<property name="awbnumber" column="AWBNUMBER" />
+		<property name="origin" column="ORIGIN" />
+		<property name="destination" column="DESTINATION" />
+		<property name="customsorigin" column="CUSTOMER_ORIGIN" />
+		<property name="changeCode" column="CHANGE_CODE" />
+		<property name=" piece" column="PIECE" />
+		<property name=" weight" column="WIEGHT" />
+		<property name="weightCode" column="WEIGHTCODE" />
+		<property name="natureofGoods" column="NATUREOFGOODS" />
+
+	</class>
+</hibernate-mapping>
+	
